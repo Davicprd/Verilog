@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1717779758">
+  <File Type="ROUTE-PWR" Name="sseg_test_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="sseg_test.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="sseg_test_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="sseg_test_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="sseg_test.msk"/>
+  <File Type="ROUTE-CLK" Name="sseg_test_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="sseg_test.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="sseg_test_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="sseg_test.bit"/>
+  <File Type="BG-DRC" Name="sseg_test.drc"/>
+  <File Type="BG-BGN" Name="sseg_test.bgn"/>
+  <File Type="BG-BIN" Name="sseg_test.bin"/>
+  <File Type="BITSTR-RBT" Name="sseg_test.rbt"/>
+  <File Type="BITSTR-NKY" Name="sseg_test.nky"/>
+  <File Type="BITSTR-BMM" Name="sseg_test_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="sseg_test.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="sseg_test_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="sseg_test.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="sseg_test.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="sseg_test_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="sseg_test.hwdef"/>
+  <File Type="PLACE-IO" Name="sseg_test_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="sseg_test_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="sseg_test_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="sseg_test_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sseg_test_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="sseg_test_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="sseg_test_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="sseg_test_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="sseg_test_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="sseg_test_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="sseg_test_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sseg_test_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sseg_test_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sseg_test_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="sseg_test_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sseg_test_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="sseg_test_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="sseg_test_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="sseg_test_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="sseg_test_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="sseg_test_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="sseg_test_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="sseg_test_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sseg_test_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="sseg_test_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sseg_test_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sseg_test_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="sseg_test_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="sseg_test_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="sseg_test_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="sseg_test_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="sseg_test_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sseg_test_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="sseg_test_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sseg_test_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="sseg_test.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="sseg_test_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="sseg_test_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="sseg_test.rcfi"/>
+  <File Type="CFI_FILE" Name="sseg_test.cfi"/>
+  <File Type="RNPI_FILE" Name="sseg_test.rnpi"/>
+  <File Type="NPI_FILE" Name="sseg_test.npi"/>
+  <File Type="RBD_FILE" Name="sseg_test.rbd"/>
+  <File Type="ROUTE-RQS" Name="sseg_test_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="sseg_test_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/sseg_display.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sseg_test.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sseg_test"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Documents/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Documents/Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1716830403"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

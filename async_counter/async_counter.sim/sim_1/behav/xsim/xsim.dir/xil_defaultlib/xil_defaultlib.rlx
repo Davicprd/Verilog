@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/davic/async_counter/async_counter.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/davic/async_counter/async_counter.srcs/sim_1/new/async_counter_tb.sv,1717524987,verilog,,,,async_counter_tb,,,,,,,,
+C:/Users/davic/async_counter/async_counter.srcs/sim_1/new/sync_counter_tb.sv,1717526526,verilog,,,,sync_counter_tb,,,,,,,,
+C:/Users/davic/async_counter/async_counter.srcs/sources_1/new/T_FF.sv,1717523677,verilog,,C:/Users/davic/async_counter/async_counter.srcs/sources_1/new/sync_counter.v,,T_FF,,,,,,,,
+C:/Users/davic/async_counter/async_counter.srcs/sources_1/new/async_counter.sv,1717523464,verilog,,C:/Users/davic/async_counter/async_counter.srcs/sim_1/new/async_counter_tb.sv,,async_counter,,,,,,,,
+C:/Users/davic/async_counter/async_counter.srcs/sources_1/new/sync_counter.v,1717526122,verilog,,C:/Users/davic/async_counter/async_counter.srcs/sim_1/new/sync_counter_tb.sv,,sync_counter,,,,,,,,

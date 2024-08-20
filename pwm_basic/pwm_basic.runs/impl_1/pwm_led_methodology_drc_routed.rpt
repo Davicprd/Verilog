@@ -1,0 +1,96 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jul  3 15:12:11 2024
+| Host         : Davi running 64-bit major release  (build 9200)
+| Command      : report_methodology -file pwm_led_methodology_drc_routed.rpt -pb pwm_led_methodology_drc_routed.pb -rpx pwm_led_methodology_drc_routed.rpx
+| Design       : pwm_led
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 6
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert  | 2          |
+| TIMING-18 | Warning  | Missing input or output delay | 4          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell nolabel_line68/nolabel_line33/Q_reg[0]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) nolabel_line68/nolabel_line42/Q_reg_reg[14]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[15]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[16]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[17]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[18]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[19]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[1]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[2]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[3]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[4]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[5]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[6]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[7]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[8]/CLR,
+nolabel_line68/nolabel_line42/Q_reg_reg[9]/CLR
+ (the first 15 of 20 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell nolabel_line75/nolabel_line33/Q_reg[0]_i_3__0, with 2 or more inputs, drives asynchronous preset/clear pin(s) nolabel_line75/nolabel_line42/Q_reg_reg[14]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[15]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[16]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[17]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[18]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[19]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[1]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[2]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[3]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[4]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[5]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[6]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[7]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[8]/CLR,
+nolabel_line75/nolabel_line42/Q_reg_reg[9]/CLR
+ (the first 15 of 20 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on BTND relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on BTNU relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on reset_n relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on led relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+

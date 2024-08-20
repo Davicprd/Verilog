@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/davic/FSM_101/mealy_101.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/davic/FSM_101/mealy_101.srcs/sim_1/imports/new/FSM_101_tb.v,1718910886,verilog,,,,FSM_101_tb,,,,,,,,
+C:/Users/davic/FSM_101/mealy_101.srcs/sources_1/new/mealy_101.v,1718910687,verilog,,C:/Users/davic/FSM_101/mealy_101.srcs/sim_1/imports/new/FSM_101_tb.v,,mealy_101,,,,,,,,
+C:/Users/davic/FSM_101/mealy_101.srcs/sources_1/new/moore_101.v,1718911774,verilog,,C:/Users/davic/FSM_101/mealy_101.srcs/sim_1/imports/new/FSM_101_tb.v,,moore_101,,,,,,,,

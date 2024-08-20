@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sim_1/new/debouncer_delayed_tb.v,1720026054,verilog,,,,debouncer_delayed_tb,,,,,,,,
+C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sim_1/new/edge_detector_tb.v,1720027379,verilog,,,,edge_detector_tb,,,,,,,,
+C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sources_1/new/debouncer_delayed.v,1719426252,verilog,,C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sources_1/new/debouncer_delayed_FSM.v,,debouncer_delayed,,,,,,,,
+C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sources_1/new/debouncer_delayed_FSM.v,1719426253,verilog,,C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sources_1/new/timer.v,,debouncer_delayed_FSM,,,,,,,,
+C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sources_1/new/edge_detector.v,1719426400,verilog,,C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sim_1/new/edge_detector_tb.v,,edge_detector,,,,,,,,
+C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sources_1/new/timer.v,1719426289,verilog,,C:/Users/davic/debouncer_delayed_FSM/debouncer_delayed_FSM.srcs/sim_1/new/debouncer_delayed_tb.v,,timer,,,,,,,,
